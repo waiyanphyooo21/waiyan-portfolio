@@ -35,7 +35,7 @@ A responsive and modern personal portfolio website built with HTML, CSS, and Jav
 ## 💻 Getting Started
 
 1. Clone the repo:
-git clone https://waiyanphyooo21.github.io/waiyan-portfolio..git
+git clone https://waiyanphyooo21.github.io/waiyan-portfolio.git
 2. Open `index.html` in your browser or use Live Server in VS Code.
 
 ## 📬 Contact
