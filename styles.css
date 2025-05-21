@@ -726,9 +726,19 @@ h2 {
         padding: 1rem 0.5rem;
     }
 
-    .gradient-text,
-    .contact-title,
+    .gradient-text {
+        font-size: 2.5rem;
+    }
+
     .typer.typewriter-effect {
+        font-size: 2.5rem;
+    }
+
+    .hero p {
+        font-size: 1.2rem;
+    }
+
+    .contact-title {
         font-size: 1.5rem;
     }
 
@@ -775,9 +785,20 @@ h2 {
         padding: 0.5rem 0.2rem;
     }
 
-    .gradient-text,
-    .contact-title,
+    .gradient-text {
+        font-size: 2rem;
+    }
+
     .typer.typewriter-effect {
+        font-size: 2rem;
+    }
+
+    .hero p {
+        font-size: 1rem;
+    }
+
+    .gradient-text,
+    .contact-title {
         font-size: 1.1rem;
     }
 
