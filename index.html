@@ -56,8 +56,8 @@
                     <p>Enthusiastic and results-driven full stack developer with a strong foundation in Java, Spring,
                         MySQL, and web technologies. Currently developing a Warehouse Management System using Java and
                         MySQL, with hands-on experience in both backend logic and dynamic front-end interfaces.</p>
-                    <p>I hold two Diplomas in Computing from university of greenwich, UK and Certified in <a href="https://itpec.org"
-                            target="_blank">ITPEC</a> IP (Information Technology Passport) and
+                    <p>I hold two Diplomas in Computing from university of greenwich, UK and Certified in <a
+                            href="https://itpec.org" target="_blank">ITPEC</a> IP (Information Technology Passport) and
                         FE (Fundamental Information
                         Technology Engineer), and actively preparing for the ITPEC AP (Applied Information Technology
                         Engineer).
@@ -159,7 +159,8 @@
                     </div>
                     <div class="project-content">
                         <h3>My Protfolio Website</h3>
-                        <p>A responsive and modern personal portfolio website with Features interactive animations, dark/light mode.</p>
+                        <p>A responsive and modern personal portfolio website with Features interactive animations,
+                            dark/light mode.</p>
                         <div class="tech-stack">
                             <span>HTML</span>
                             <span>CSS</span>
@@ -175,7 +176,8 @@
                     </div>
                     <div class="project-content">
                         <h3>To-Do List</h3>
-                        <p>A responsive and modern pplication helps you manage your tasks efficiently with a beautiful and intuitive user interface.</p>
+                        <p>A responsive and modern pplication helps you manage your tasks efficiently with a beautiful
+                            and intuitive user interface.</p>
                         <div class="tech-stack">
                             <span>HTML</span>
                             <span>CSS</span>
@@ -190,6 +192,7 @@
 
     <!-- Contact Section -->
     <section id="contact" class="contact">
+        <canvas id="contact-bg"></canvas>
         <div class="container">
             <img src="images/contact.png" alt="Contact" class="contact-top-image">
             <h2 class="contact-title">Contact Me</h2>
@@ -233,6 +236,12 @@
     </div>
 
     <script src="script.js"></script>
+    <script src="particle-bg.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            initParticleBackground('contact-bg');
+        });
+    </script>
 </body>
 
 </html>
