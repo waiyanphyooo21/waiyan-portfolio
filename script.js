@@ -185,10 +185,25 @@ function typeWriterEffect(words, element, delay = 120, pause = 1200) {
     }
     type();
 } 
-// Block F12 and Ctrl+Shift+I
+// 🚫 Disable right-click context menu silently
+document.addEventListener("contextmenu", function(event) {
+    event.preventDefault();
+});
+
+// 🚫 Block common DevTools & View Source shortcuts silently
 document.addEventListener("keydown", function(event) {
-    if (event.key === "F12" || (event.ctrlKey && event.shiftKey && event.key === "I")) {
+    // F12
+    if (event.key === "F12") {
         event.preventDefault();
-        alert("Inspect mode is disabled!");
+    }
+
+    // Ctrl+Shift+I or Ctrl+Shift+J
+    if (event.ctrlKey && event.shiftKey && (event.key === "I" || event.key === "J")) {
+        event.preventDefault();
+    }
+
+    // Ctrl+U
+    if (event.ctrlKey && event.key === "u") {
+        event.preventDefault();
     }
 });
