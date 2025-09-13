@@ -185,3 +185,10 @@ function typeWriterEffect(words, element, delay = 120, pause = 1200) {
     }
     type();
 } 
+// Block F12 and Ctrl+Shift+I
+document.addEventListener("keydown", function(event) {
+    if (event.key === "F12" || (event.ctrlKey && event.shiftKey && event.key === "I")) {
+        event.preventDefault();
+        alert("Inspect mode is disabled!");
+    }
+});
