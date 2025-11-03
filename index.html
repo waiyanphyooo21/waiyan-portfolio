@@ -1,20 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <!-- Title & Meta -->
     <title>Full Stack Developer Portfolio – Wai Yan Phyo Oo</title>
-    <meta name="description" content="Explore the portfolio of Wai Yan Phyo Oo, a Full Stack Developer specializing in modern web development, responsive designs, and scalable applications." />
+    <meta
+      name="description"
+      content="Explore the portfolio of Wai Yan Phyo Oo, a Full Stack Developer specializing in modern web development, responsive designs, and scalable applications."
+    />
     <meta name="author" content="Wai Yan Phyo Oo" />
 
     <!-- Favicon -->
-    <link rel="icon" type="image/png" href="images/Logo.png">
+    <link rel="icon" type="image/png" href="images/Logo.png" />
 
     <!-- Stylesheets -->
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
 
     <!-- JavaScript Libraries -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
@@ -24,66 +30,90 @@
     <meta property="og:site_name" content="Wai Yan Phyo Oo Portfolio" />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://portfolio.waiyanphyooo.online" />
-    <meta property="og:title" content="Full Stack Developer Portfolio – Wai Yan Phyo Oo" />
-    <meta property="og:description" content="Showcasing projects, skills, and web development expertise of Wai Yan Phyo Oo – Full Stack Developer." />
-    <meta property="og:image" content="https://portfolio.waiyanphyooo.online/images/preview_dark.png" />
+    <meta
+      property="og:title"
+      content="Full Stack Developer Portfolio – Wai Yan Phyo Oo"
+    />
+    <meta
+      property="og:description"
+      content="Showcasing projects, skills, and web development expertise of Wai Yan Phyo Oo – Full Stack Developer."
+    />
+    <meta
+      property="og:image"
+      content="https://portfolio.waiyanphyooo.online/images/preview_dark.png"
+    />
 
     <!-- JSON-LD Structured Data for Personal Portfolio -->
     <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "Person",
-      "name": "Wai Yan Phyo Oo",
-      "url": "https://portfolio.waiyanphyooo.online",
-      "image": "https://https://portfolio.waiyanphyooo.online/images/preview_dark.png",
-      "sameAs": [
-        "https://github.com/waiyanphyooo21",
-        "https://www.linkedin.com/in/waiyanphyooo03/"
-      ],
-      "jobTitle": "Full Stack Developer",
-      "worksFor": {
-        "@type": "Organization",
-        "name": "Freelancer"
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Wai Yan Phyo Oo",
+        "url": "https://portfolio.waiyanphyooo.online",
+        "image": "https://https://portfolio.waiyanphyooo.online/images/preview_dark.png",
+        "sameAs": [
+          "https://github.com/waiyanphyooo21",
+          "https://www.linkedin.com/in/waiyanphyooo03/"
+        ],
+        "jobTitle": "Full Stack Developer",
+        "worksFor": {
+          "@type": "Organization",
+          "name": "Freelancer"
+        }
       }
-    }
     </script>
-</head>
+  </head>
 
-<body>
+  <body>
     <!-- Navigation -->
     <nav class="navbar">
-        <div class="nav-content">
-            <div class="logo"><img src="images/Logo.png" alt="Wai Yan Phyo Oo Logo" class="navbar-logo"></div>
-            <div class="nav-links">
-                <a href="#home" class="nav-link">Home</a>
-                <a href="#about" class="nav-link">About</a>
-                <a href="#projects" class="nav-link">Projects</a>
-                <a href="#contact" class="nav-link">Contact</a>
-                <button id="theme-toggle" class="theme-toggle" aria-label="Toggle dark mode">
-                    <i class="fas fa-sun"></i>
-                    <i class="fas fa-moon"></i>
-                </button>
-            </div>
-            <button class="mobile-menu-btn">
-                <span></span>
-                <span></span>
-                <span></span>
-            </button>
+      <div class="nav-content">
+        <div class="logo">
+          <img
+            src="images/Logo.png"
+            alt="Wai Yan Phyo Oo Logo"
+            class="navbar-logo"
+          />
         </div>
+        <div class="nav-links">
+          <a href="#home" class="nav-link">Home</a>
+          <a href="#about" class="nav-link">About</a>
+          <a href="#projects" class="nav-link">Projects</a>
+          <a href="#contact" class="nav-link">Contact</a>
+          <button
+            id="theme-toggle"
+            class="theme-toggle"
+            aria-label="Toggle dark mode"
+          >
+            <i class="fas fa-sun"></i>
+            <i class="fas fa-moon"></i>
+          </button>
+        </div>
+        <button class="mobile-menu-btn">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
     </nav>
 
     <!-- Hero Section -->
-    <!-- <section id="home" class="hero">
-        <div id="canvas-container"></div>
-        <div class="hero-content">
-            <h1 class="gradient-text">I am</h1>
-            <div class="typer typewriter-effect"><span class="typer-text"></span></div>
-            <p>Building modern web applications with cutting-edge technologies</p>
-            <a href="#projects" class="cta-button" style="text-decoration: none;">View My Work</a>
-        </div>
-    </section> -->
-    <!-- Hero Section -->
     <section id="home" class="hero">
+      <div id="canvas-container"></div>
+      <div class="hero-content">
+        <h1 class="gradient-text">I am</h1>
+        <div class="typer typewriter-effect">
+          <span class="typer-text"></span>
+        </div>
+        <!-- <p>Building modern web applications with cutting-edge technologies</p> -->
+        <p>Delivering modern web experiences with clean, efficient code</p>
+        <a href="#projects" class="cta-button" style="text-decoration: none"
+          >View My Work</a
+        >
+      </div>
+    </section>
+    <!-- Hero Section -->
+    <!-- <section id="home" class="hero">
         <div id="canvas-container"></div>
         <div class="hero-content">
             <h1 class="gradient-text">I am</h1>
@@ -94,241 +124,376 @@
                 <a href="https://waiyanphyooo21.github.io/resume/" target="_blank" class="cta-button" style="text-decoration: none;">View Resume</a>
             </div>
         </div>
-    </section>
-
+    </section> -->
 
     <!-- About Section -->
     <section id="about" class="about">
-        <div class="container">
-            <h2>About Me</h2>
-            <div class="section-divider"></div>
-            <div class="about-content">
-                <div class="about-text">
-                    <p>Enthusiastic and results-driven full stack developer with a strong foundation in Java, Spring,
-                        MySQL, and web technologies. Currently developing a Warehouse Management System using Java and
-                        MySQL, with hands-on experience in both backend logic and dynamic front-end interfaces.</p>
-                    <p>I hold two Diplomas in Computing from university of greenwich, UK and Certified in <a
-                            href="https://itpec.org" target="_blank">ITPEC</a> IP (Information Technology Passport) and
-                        FE (Fundamental Information
-                        Technology Engineer), and actively preparing for the ITPEC AP (Applied Information Technology
-                        Engineer).
+      <div class="container">
+        <h2>About Me</h2>
+        <div class="section-divider"></div>
+        <div class="about-content">
+          <!-- <div class="about-text">
+            <p>
+              Enthusiastic and results-driven full stack developer with a strong
+              foundation in Java, Spring, MySQL, and web technologies. Currently
+              developing a Warehouse Management System using Java and MySQL,
+              with hands-on experience in both backend logic and dynamic
+              front-end interfaces.
+            </p>
+            <p>
+              I hold two Diplomas in Computing from university of greenwich, UK
+              and Certified in
+              <a href="https://itpec.org" target="_blank">ITPEC</a> IP
+              (Information Technology Passport) and FE (Fundamental Information
+              Technology Engineer), and actively preparing for the ITPEC AP
+              (Applied Information Technology Engineer).
+            </p>
+            <p>
+              Skilled in debugging, problem-solving, and building scalable
+              software solutions. Passionate about continuous learning and
+              applying knowledge through real-world projects. Comfortable
+              working independently or in teams, with a focus on clean,
+              maintainable code and timely delivery.
+            </p>
+          </div> -->
+          <div class="about-text">
+            <p>
+              Motivated and detail-oriented full-stack developer with hands-on
+              experience in real-world application development, including
+              Warehouse Management System and Hospital Management System.
+              Skilled in building end-to-end systems using Java, Angular, and
+              MySQL, working across backend logic and dynamic front-end
+              interfaces.
+            </p>
 
-                    </p>
-                    <p>Skilled in debugging, problem-solving, and building scalable software solutions. Passionate about
-                        continuous learning and applying knowledge through real-world projects. Comfortable working
-                        independently or in teams, with a focus on clean, maintainable code and timely delivery.</p>
-                </div>
-                <div class="skills-grid">
-                    <div class="skill-card">
-                        <h3>Frontend</h3>
-                        <ul>
-                            <li><i class="fab fa-html5"></i> HTML5 & CSS3</li>
-                            <li><i class="fab fa-js"></i> JavaScript</li>
-                            <li><i class="fab fa-bootstrap"></i> Bootstrap</li>
-                            <li><i class="fab fa-angular"></i> Angular</li>
-                            <li><i class="fab fa-react"></i> Three.js</li>
-                            <li><i class="fas fa-mobile-alt"></i> Responsive Design</li>
-                        </ul>
-                    </div>
-                    <div class="skill-card">
-                        <h3>Backend</h3>
-                        <ul>
-                            <li><i class="fab fa-java"></i> Java</li>
-                            <li><i class="fas fa-code"></i> C++</li>
-                            <li><i class="fas fa-leaf"></i> Spring</li>
-                            <li><i class="fab fa-node-js"></i> Node.js</li>
-                            <li><i class="fas fa-database"></i> MySQL</li>
-                            <li><i class="fas fa-database"></i> MongoDB</li>
-                        </ul>
-                    </div>
-                    <div class="skill-card">
-                        <h3>Tools</h3>
-                        <ul>
-                            <li><i class="fab fa-git-alt"></i> Git</li>
-                            <li><i class="fab fa-docker"></i> Docker</li>
-                            <li><i class="fab fa-aws"></i> AWS</li>
-                            <li><i class="fas fa-sync-alt"></i> CI/CD</li>
-                        </ul>
-                    </div>
-                    <div class="skill-card">
-                        <h3>Soft Skills</h3>
-                        <ul>
-                            <li><i class="fas fa-lightbulb"></i> Problem Solving</li>
-                            <li><i class="fas fa-users"></i> Team Work</li>
-                            <li><i class="fas fa-comments"></i> Communication</li>
-                            <li><i class="fas fa-tasks"></i> Agile</li>
-                        </ul>
-                    </div>
-                </div>
+            <p>
+              <a href="https://www.nccedu.com/" target="_blank"
+                >NCC Education</a
+              >
+              Computer Science Second-Year student who holds two Diplomas in
+              Computing from the University of Greenwich, UK, and certified in
+              <a href="https://itpec.org" target="_blank">ITPEC</a> IP
+              (Information Technology Passport) and FE (Fundamental Information
+              Technology Engineer), currently preparing for the ITPEC AP
+              (Applied Information Technology Engineer) certification.
+            </p>
+
+            <p>
+              Skilled in debugging, problem-solving, and developing scalable
+              software systems. Passionate about continuous learning and
+              applying skills through real-world projects. Able to work
+              independently or collaboratively, with a commitment to clean,
+              maintainable code and delivering solutions on time.
+            </p>
+          </div>
+
+          <div class="skills-grid">
+            <div class="skill-card">
+              <h3>Frontend</h3>
+              <ul>
+                <li><i class="fab fa-html5"></i> HTML5 & CSS3</li>
+                <li><i class="fab fa-js"></i> JavaScript</li>
+                <li><i class="fab fa-css3-alt"></i> TypeScript</li>
+                <li>
+                  <i class="fab fa-bootstrap"></i> Tailwind CSS, Bootstrap
+                </li>
+                <li><i class="fab fa-angular"></i> Angular</li>
+                <li><i class="fab fa-react"></i> Three.js</li>
+                <li><i class="fas fa-mobile-alt"></i> Responsive Design</li>
+              </ul>
             </div>
+            <div class="skill-card">
+              <h3>Backend</h3>
+              <ul>
+                <li><i class="fab fa-java"></i> Java</li>
+                <li><i class="fas fa-code"></i> C++</li>
+                <li><i class="fas fa-leaf"></i> Spring</li>
+                <li><i class="fab fa-node-js"></i> Node.js</li>
+                <li><i class="fas fa-database"></i> MySQL</li>
+                <li><i class="fas fa-database"></i> PostgreSQL</li>
+                <li><i class="fas fa-database"></i> MongoDB</li>
+              </ul>
+            </div>
+            <div class="skill-card">
+              <h3>Tools</h3>
+              <ul>
+                <li><i class="fab fa-git-alt"></i> Git</li>
+                <li><i class="fab fa-docker"></i> Docker</li>
+                <li><i class="fab fa-aws"></i> AWS</li>
+                <li><i class="fas fa-sync-alt"></i> CI/CD</li>
+              </ul>
+            </div>
+            <div class="skill-card">
+              <h3>Soft Skills</h3>
+              <ul>
+                <li><i class="fas fa-lightbulb"></i> Problem Solving</li>
+                <li><i class="fas fa-users"></i> Team Work</li>
+                <li><i class="fas fa-comments"></i> Communication</li>
+                <li><i class="fas fa-tasks"></i> Agile</li>
+              </ul>
+            </div>
+          </div>
         </div>
+      </div>
     </section>
 
     <!-- Projects Section -->
     <section id="projects" class="projects">
-        <div class="container">
-            <h2>Featured Projects</h2>
-            <div class="section-divider"></div>
-            <div class="projects-grid">
-                <div class="project-card">
-                    <div class="project-image">
-                        <img src="images/goldenplate.png" alt="Golden Plate Tea & Food"
-                            style="width:100%;height:auto;object-fit:cover;">
-                    </div>
-                    <div class="project-content">
-                        <h3>Golden Plate Website</h3>
-                        <p>Golden Plate Tea & Food Center - Where Taste Meets tradition.</p>
-                        <div class="tech-stack">
-                            <span>HTML</span>
-                            <span>CSS</span>
-                            <span>JavaScript</span>
-                            <span>Firebase</span>
-                        </div>
-                        <a href="https://goldenplate.org/" class="project-link">View Project</a>
-                    </div>
-                </div>
-                <div class="project-card">
-                    <div class="project-image">
-                        <img src="images/sis.png" alt="SISBURMA Clothing Website"
-                            style="width:100%;height:auto;object-fit:cover;">
-                    </div>
-                    <div class="project-content">
-                        <h3>SISBURMA Clothing Website</h3>
-                        <p>A sleek and modern website for SISBURMA, a local fashion and clothing brand in Myanmar.</p>
-                        <div class="tech-stack">
-                            <span>HTML</span>
-                            <span>CSS</span>
-                            <span>SCSS</span>
-                            <span>JavaScript</span>
-                        </div>
-                        <a href="https://waiyanphyooo21.github.io/sis/" class="project-link">View Project</a>
-                    </div>
-                </div>
-                <div class="project-card">
-                    <div class="project-image">
-                        <img src="images/mflix.png" alt="M-Flix Movie Website"
-                            style="width:100%;height:auto;object-fit:cover;">
-                    </div>
-                    <div class="project-content">
-                        <h3>M-Flix Movie Website</h3>
-                        <p>A responsive and movie streaming UI that lets you discover trending films, view details, and
-                            enjoy a clean user experience.</p>
-                        <div class="tech-stack">
-                            <span>HTML</span>
-                            <span>CSS</span>
-                            <span>JavaScript</span>
-                        </div>
-                        <a href="https://mf-lix.vercel.app" class="project-link">View Project</a>
-                    </div>
-                </div>
-                <div class="project-card">
-                    <div class="project-image">
-                        <img src="images/portfo.png" alt="My Protfolio"
-                            style="width:100%;height:auto;object-fit:cover;">
-                    </div>
-                    <div class="project-content">
-                        <h3>My Protfolio Website</h3>
-                        <p>A responsive and modern personal portfolio website with Features interactive animations,
-                            dark/light mode.</p>
-                        <div class="tech-stack">
-                            <span>HTML</span>
-                            <span>CSS</span>
-                            <span>SCSS</span>
-                            <span>JavaScript</span>
-                        </div>
-                        <a href="https://waiyanphyooo21.github.io/portfolio/" class="project-link">View Project</a>
-                    </div>
-                </div>
-                <div class="project-card">
-                    <div class="project-image">
-                        <img src="images/todo.png" alt="To-Do List App"
-                            style="width:100%;height:auto;object-fit:cover;">
-                    </div>
-                    <div class="project-content">
-                        <h3>To-Do List</h3>
-                        <p>A responsive and modern pplication helps you manage your tasks efficiently with a beautiful
-                            and intuitive user interface.</p>
-                        <div class="tech-stack">
-                            <span>HTML</span>
-                            <span>CSS</span>
-                            <span>JavaScript</span>
-                        </div>
-                        <a href="https://waiyanphyooo21.github.io/to-do/" class="project-link">View Project</a>
-                    </div>
-                </div>
-                <div class="project-card">
-                    <div class="project-image">
-                        <img src="images/weather.png" alt="DK Weather Pro App"
-                            style="width:100%;height:auto;object-fit:cover;">
-                    </div>
-                    <div class="project-content">
-                        <h3>WeatherPro App</h3>
-                        <p>A modern, responsive weather dashboard application that provides real-time weather information, forecasts, and interactive maps.</p>
-                        <div class="tech-stack">
-                            <span>HTML</span>
-                            <span>CSS</span>
-                            <span>API</span>
-                            <span>JavaScript</span>
-                        </div>
-                        <a href="https://waiyanphyooo21.github.io/weather/" class="project-link">View Project</a>
-                    </div>
-                </div>
+      <div class="container">
+        <h2>Featured Projects</h2>
+        <div class="section-divider"></div>
+        <div class="projects-grid">
+          <div class="project-card">
+            <div class="project-image">
+              <img
+                src="images/goldenplate.png"
+                alt="Golden Plate Tea & Food"
+                style="width: 100%; height: auto; object-fit: cover"
+              />
             </div>
+            <div class="project-content">
+              <h3>Golden Plate Website</h3>
+              <p>
+                A Landing website showcasing menus, specials, and the story of
+                the restaurant to enhance the customer experience.
+              </p>
+              <div class="tech-stack">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+                <span>Cloudinary</span>
+                <span>Firebase</span>
+              </div>
+              <a href="https://goldenplate.org/" class="project-link"
+                >View Project</a
+              >
+            </div>
+          </div>
+          <div class="project-card">
+            <div class="project-image">
+              <img
+                src="images/NPG.png"
+                alt="NgwePoneGyi Warehouse Management System"
+                style="width: 100%; height: auto; object-fit: cover"
+              />
+            </div>
+            <div class="project-content">
+              <h3>Warehouse Management System</h3>
+              <p>
+                A full-stack warehouse management system for NgwePoneGyi,
+                designed to manage inventory and stock efficiently.
+              </p>
+              <div class="tech-stack">
+                <span>Thymeleaf</span>
+                <span>Java</span>
+                <span>Spring</span>
+                <span>REST API</span>
+                <span>Mysql</span>
+              </div>
+              <button class="project-link maintenance-btn">View Project</button>
+            </div>
+          </div>
+          <div class="project-card">
+            <div class="project-image">
+              <img
+                src="images/HMS.png"
+                alt="Hospital Management System"
+                style="width: 100%; height: auto; object-fit: cover"
+              />
+            </div>
+            <div class="project-content">
+              <h3>Hospital Management System</h3>
+              <p>
+                A full-stack hospital management system for managing patients,
+                appointments, and medical records efficiently.
+              </p>
+              <div class="tech-stack">
+                <span>Angular</span>
+                <span>Spring Boot</span>
+                <span>REST API</span>
+                <span>Mysql</span>
+              </div>
+              <button class="project-link maintenance-btn">View Project</button>
+            </div>
+          </div>
+          <div class="project-card">
+            <div class="project-image">
+              <img
+                src="images/sis.png"
+                alt="SISBURMA Clothing Website"
+                style="width: 100%; height: auto; object-fit: cover"
+              />
+            </div>
+            <div class="project-content">
+              <h3>SISBURMA Clothing Website</h3>
+              <p>
+                A sleek and modern website for SISBURMA, a local fashion and
+                clothing brand in Myanmar.
+              </p>
+              <div class="tech-stack">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>SCSS</span>
+                <span>JavaScript</span>
+              </div>
+              <a
+                href="https://waiyanphyooo21.github.io/sis/"
+                class="project-link"
+                >View Project</a
+              >
+            </div>
+          </div>
+          <div class="project-card">
+            <div class="project-image">
+              <img
+                src="images/todo.png"
+                alt="To-Do List App"
+                style="width: 100%; height: auto; object-fit: cover"
+              />
+            </div>
+            <div class="project-content">
+              <h3>To-Do List</h3>
+              <p>
+                A responsive and modern pplication helps you manage your tasks
+                efficiently with a beautiful and intuitive user interface.
+              </p>
+              <div class="tech-stack">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+              </div>
+              <a
+                href="https://waiyanphyooo21.github.io/to-do/"
+                class="project-link"
+                >View Project</a
+              >
+            </div>
+          </div>
+          <div class="project-card">
+            <div class="project-image">
+              <img
+                src="images/weather.png"
+                alt="DK Weather Pro App"
+                style="width: 100%; height: auto; object-fit: cover"
+              />
+            </div>
+            <div class="project-content">
+              <h3>WeatherPro App</h3>
+              <p>
+                A modern, responsive weather dashboard application that provides
+                real-time weather information, forecasts, and interactive maps.
+              </p>
+              <div class="tech-stack">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>API</span>
+                <span>JavaScript</span>
+              </div>
+              <a
+                href="https://waiyanphyooo21.github.io/weather/"
+                class="project-link"
+                >View Project</a
+              >
+            </div>
+          </div>
         </div>
+      </div>
     </section>
+    <!-- Inside body but outside project cards -->
+    <div id="maintenance-popup">
+      <div class="popup-content">
+        <span class="close-btn" id="close-popup">&times;</span>
+        <h3>
+          <i class="fas fa-exclamation-triangle"></i> Project Under Maintenance
+        </h3>
+        <p>
+          This project is currently under maintenance and cannot be viewed.
+          Please contact the developer for access.
+        </p>
+      </div>
+    </div>
 
     <!-- Contact Section -->
     <section id="contact" class="contact">
-        <canvas id="contact-bg"></canvas>
-        <div class="container">
-            <img src="images/contact.png" alt="Contact" class="contact-top-image">
-            <h2 class="contact-title">Contact Me</h2>
-            <a href="mailto:dm@waiyanphyooo.online" class="contact-email">dm@waiyanphyooo.online</a>
-            <p class="contact-desc">Feel free to contact me with any inquiries or questions!</p>
-            <form id="contact-form" class="contact-form-modern" action="https://getform.io/f/bjjrjyqb" method="POST">
-                <div class="form-row">
-                    <div class="form-group-modern">
-                        <label for="name">Name</label>
-                        <input type="text" id="name" name="name" required>
-                    </div>
-                    <div class="form-group-modern">
-                        <label for="email">Email Address</label>
-                        <input type="email" id="email" name="email" required>
-                    </div>
-                </div>
-                <div class="form-group-modern">
-                    <label for="message">Message</label>
-                    <textarea id="message" name="message" rows="3" required></textarea>
-                </div>
-                <div class="form-actions">
-                    <button type="submit" class="submit-button-modern">Submit</button>
-                </div>
-            </form>
-            <div class="social-links-modern">
-                <a href="mailto:dm@waiyanphyooo.online" class="social-icon" title="Email">
-                    <i class="fas fa-envelope"></i>
-                </a>
-                <a href="https://github.com/waiyanphyooo21" target="_blank" class="social-icon" title="GitHub">
-                    <i class="fab fa-github"></i>
-                </a>
-                <a href="https://linkedin.com/in/waiyanakaderek003" target="_blank" class="social-icon" title="LinkedIn">
-                    <i class="fab fa-linkedin"></i>
-                </a>
+      <canvas id="contact-bg"></canvas>
+      <div class="container">
+        <img src="images/contact.png" alt="Contact" class="contact-top-image" />
+        <h2 class="contact-title">Contact Me</h2>
+        <a href="mailto:dm@waiyanphyooo.online" class="contact-email"
+          >dm@waiyanphyooo.online</a
+        >
+        <p class="contact-desc">
+          Feel free to contact me with any inquiries or questions!
+        </p>
+        <form
+          id="contact-form"
+          class="contact-form-modern"
+          action="https://getform.io/f/bjjrjyqb"
+          method="POST"
+        >
+          <div class="form-row">
+            <div class="form-group-modern">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" required />
             </div>
+            <div class="form-group-modern">
+              <label for="email">Email Address</label>
+              <input type="email" id="email" name="email" required />
+            </div>
+          </div>
+          <div class="form-group-modern">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="3" required></textarea>
+          </div>
+          <div class="form-actions">
+            <button type="submit" class="submit-button-modern">Submit</button>
+          </div>
+        </form>
+        <div class="social-links-modern">
+          <a
+            href="mailto:dm@waiyanphyooo.online"
+            class="social-icon"
+            title="Email"
+          >
+            <i class="fas fa-envelope"></i>
+          </a>
+          <a
+            href="https://github.com/waiyanphyooo21"
+            target="_blank"
+            class="social-icon"
+            title="GitHub"
+          >
+            <i class="fab fa-github"></i>
+          </a>
+          <a
+            href="https://linkedin.com/in/waiyanakaderek003"
+            target="_blank"
+            class="social-icon"
+            title="LinkedIn"
+          >
+            <i class="fab fa-linkedin"></i>
+          </a>
         </div>
+      </div>
     </section>
 
-    <div style="text-align:center; color:var(--light-text); margin:0 0 0.7rem 0; font-size:1rem;">
-        &copy; by Wai Yan Phyo Oo
+    <div
+      style="
+        text-align: center;
+        color: var(--light-text);
+        margin: 0 0 0.7rem 0;
+        font-size: 1rem;
+      "
+    >
+      &copy; by Wai Yan Phyo Oo
     </div>
 
     <script src="script.js"></script>
     <script src="particle-bg.js"></script>
     <script>
-        document.addEventListener('DOMContentLoaded', function () {
-            initParticleBackground('contact-bg');
-        });
+      document.addEventListener("DOMContentLoaded", function () {
+        initParticleBackground("contact-bg");
+      });
     </script>
-</body>
-
+  </body>
 </html>
