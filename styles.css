@@ -1068,3 +1068,43 @@ h2 {
 .maintenance-btn:hover {
   background: var(--secondary-color);
 }
+
+/* Modified to remove card look and fix padding */
+.achievement-container {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+  padding-bottom: 2rem; /* Added bottom padding here */
+  background: transparent;
+  border: none;
+}
+
+.achievement-icon {
+  font-size: 2.5rem;
+  color: #ffd700; /* Gold color for trophy */
+  min-width: 60px;
+  text-align: center;
+  padding-top: 5px;
+}
+
+.achievement-content h3 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-size: 1.3rem;
+}
+
+.achievement-meta {
+  color: #aaa;
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+  font-family: monospace;
+}
+
+@media (max-width: 768px) {
+  .achievement-container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+}
